@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">      
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            margin: 0 !important;
+        }
+        *{
+            font-family: emoji;
+                       
+        }
+        aside{
+            float: left;
+            margin-right: 30px;
+            margin-left: 50px;
+            height: 1000px;
+            
+        }
+        header{
+            width: 100%;
+            height: 50px;
+            background-color: blue;
+            padding: 2px;
+        }
+        #header{
+            float: left;
+            padding: 10px;
+            margin-left: 200px;
+        }
+       
+        span{
+            margin: 30px;
+        }
+        nav{
+            width: 100%;
+            height: 50px;
+            background-color: cornsilk;
+            padding-top: 20px; 
+        }
+        #nav:hover{
+            text-decoration: underline;
+        }
+        #nav{
+            margin-left: 30px;
+            margin-right: 20px;
+        }
+        
+
+        #txt{
+            align-items: center;
+            width: 400px;
+            height: 20px;
+            margin-left: 30%;
+        }
+        a{
+            text-decoration: none;
+            color: black; 
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        section{
+            width: 80%;
+            float: right;
+        }
+        h{
+            font-size: xx-large;
+            
+        }
+        footer{
+            width: auto;
+            height:auto;
+            margin-top: 900px;
+            color:white;
+            padding: 20px;
+        }
+        #back{
+            height: 100px;
+            color: white;
+           
+
+        }
+        figure{
+            float: left;
+        }
+        g{
+            color: rgba(10, 175, 10, 0.89);
+        }
+        #col{
+            float: left;
+            height: auto;
+            width: 25%;
+            margin-left: -40px;
+            color: darkgrey;
+    
+        }
+     /*   #comp img{
+	max-width:100px;
+	margin:50px 40px;
+}*/
+    </style>
+</head>
+<body>
+    <header>
+        
+        <div id="header"><input type="text" id="txt" placeholder="Search for products,brands and more  " ></div>
+        <label> <div class="header" id="header"><a href="" id="nav">Sahana <i class="fa fa-angle-down"></i> </a> <a href="" id="nav">More <i class="fa fa-angle-down"></i></a> <a href="" id="nav"><i class="fa fa-shopping-cart"></i>Cart</a></div></label>
+    </header>
+    <nav>
+        
+        <a href="" id="nav">Electronics <i class="fa fa-angle-down"></i></a><a href="" id="nav">TVs & Appliances <i class="fa fa-angle-down"></i></a><a href="" id="nav">Men <i class="fa fa-angle-down"></i></a><a href="" id="nav">Women <i class="fa fa-angle-down"></i></a><a href="" id="nav">Baby & Kids <i class="fa fa-angle-down"></i></a><a href="" id="nav">Home & Furnitures  <i class="fa fa-angle-down"></i></a><a href="" id="nav"> Flights <i class="fa fa-angle-down"></i></a>
+    
+    </nav><hr><br><br>
+    <aside>
+        <img src="data:image/jpeg;base64,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" height="200px" width="100px" alt="realme 8"/>
+    </aside>
+    
+    <section>
+        <h3>realme 8 5G (Supersonic Blue,128 GB) (4 GB RAM)</h3>
+        <a href="" style="color: blue;">Be the first to Review this product</a><br><br>
+        <g>Extra &nbsp;<i class="fa fa-inr"></i>2000 off</g>
+        <h1> <i class="fa fa-inr"></i>14,999 <span style="font-size: 15px;"><s> <i class="fa fa-inr"></i>16,999</s> &nbsp;&nbsp; <g>11% off</g> </span></h1>
+        <h><b>&nbsp;&nbsp;Coming Soon</b></h>
+        
+        <h4>Available offers</h4>
+        <i class="fa fa-tag" style="color:rgb(14, 175, 14)"></i><b> Bank offer </b>10% off on HDFC Credit Card and Credit/Debit EMI Transactions, up to RS.750. On orders of RS.5000 T&C<br>
+        <i class='fa fa-tag' style="color:rgb(14, 175, 14)"></i><b> Bank offer </b>5% Unlimited Cashback on Flipkart Axis Bank Credit Card T&C<br>
+        <i class='fa fa-tag' style="color:rgb(14, 175, 14)"></i><b> Bank offer </b>10% off on Bank of Baroda Mastercard debit card first time transaction, Terms and Conditions apply T&C<br>
+        <i class='fa fa-tag' style="color:rgb(14, 175, 14)"></i><b> Special Price </b>Extra <i class="fa fa-inr"></i>2000 off(price inclusive of discount) T&C<br>
+        <br><a href="" style="text-decoration: none; "><g>View 4 more offers</g></a>
+
+        <div id="comp">
+        <figure> 
+            <img src="https://gumlet.assettype.com/freepressjournal%2F2021-02%2F2c0e49f3-bff6-407a-9e60-216692f2d13a%2FRealme_1260x960.jpg?w=1200" height="100px" width="80px" title="R1">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25gKatKVciOu6jDcIzLd_sRN-OmPMUMQCfA&usqp=CAU" height="100px" width="80px" title="R2">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>            
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9leG05dp4fDWn_GWebp4fr8mfThq1XlBag&usqp=CAU" height="100px" width="80px" title="R3">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>            
+        </figure> 
+        <figure>  
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6A8C4h93tnO7hJ8gNha9BBMcTlyiBjrihPw&usqp=CAU" height="100px" width="80px" title="R4">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>            
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf57zoAWLvGoFGA2fZoJUFg0XntGcWmZ0m8A&usqp=CAU" height="100px" width="80px" title="R5">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>            
+        </figure>
+        <figure>
+            <img src="https://gumlet.assettype.com/freepressjournal%2F2021-02%2F2c0e49f3-bff6-407a-9e60-216692f2d13a%2FRealme_1260x960.jpg?w=1200" height="100px" width="80px" title="R1">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>            
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25gKatKVciOu6jDcIzLd_sRN-OmPMUMQCfA&usqp=CAU" height="100px" width="80px" title="R2">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>            
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9leG05dp4fDWn_GWebp4fr8mfThq1XlBag&usqp=CAU" height="100px" width="80px" title="R3">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>            
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6A8C4h93tnO7hJ8gNha9BBMcTlyiBjrihPw&usqp=CAU" height="100px" width="80px" title="R4">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>            
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf57zoAWLvGoFGA2fZoJUFg0XntGcWmZ0m8A&usqp=CAU" height="100px" width="80px" title="R5">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>            
+        </figure>
+        <figure> 
+            <img src="https://gumlet.assettype.com/freepressjournal%2F2021-02%2F2c0e49f3-bff6-407a-9e60-216692f2d13a%2FRealme_1260x960.jpg?w=1200" height="100px" width="80px" title="R1">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25gKatKVciOu6jDcIzLd_sRN-OmPMUMQCfA&usqp=CAU" height="100px" width="80px" title="R2">
+            <figcaption>realme 7i-realme India<br>buy.realme.com</figcaption>            
+        </figure>
+        
+        
+    </section>
+     <!----<div id="footer"> <s>
+        <i class="fa fa-envelope"> &nbsp;E-mail: helloportal@gmail.com </i><br></s><br>
+        <s><i class="fa fa-skype"> &nbsp;Skype ID: onlineportal</i></s>
+        <br><br><hr><br><center>All rights reserved @ 2020 Info Edge (India) Ltd.</center>
+        </div>-->
+        
+   <footer style="background-color: #2d2d2d; ">
+        <div id="back">
+            
+            <div id="col">ABOUT<br>
+                
+                <a href="">Contact Us</a><br>
+                <a href="">About Us</a><br>
+                <a href="">Careers</a><br>
+                <a href="">Flipkart Stories</a><br></div>
+           
+                <div id="col">HELP<br>
+                <a href="">Payments</a><br>
+                <a href="">Shipping</a><br>
+                <a href="">Cancellation & Returns</a><br>
+                <a href="">FAQ</a></div>
+           
+                <div id="col">POLICY<br>
+                <a href="">Return Policy</a><br>
+                <a href="">Terms Of Use</a><br>
+                <a href="">Security</a><br>
+                <a href="">Privacy</a></div>
+            
+                <div id="col">SOCIAL<br>
+                <a href="">Facebook</a><br>
+                <a href="">Twitter</a><br>
+                <a href="">YouTube</a></div>
+          </div>
+
+        </div>
+        
+
+    </footer>
+
+      
+    
+   
+</body>
+</html>
