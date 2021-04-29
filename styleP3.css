@@ -1,0 +1,214 @@
+body{
+    margin: 0 !important;
+    text-align: justify;
+}
+header{
+    height: auto;
+    width: 100%;
+    background-color: #eb5757;
+    padding: 2.5%;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.floatR{
+    float: right;
+    margin-right: 9%;
+}
+.menu{
+    display: inline;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#text{
+    float: left;
+    height: 30px;
+    width: 50%;
+    
+    
+}
+.boxes{
+display:flex;
+margin-top: 3%;
+justify-content:space-around;
+padding:20px;
+}
+.box{
+margin:20px;
+width:350px;
+height:400px;
+}
+.bx{
+    flex-shrink: 0;
+}
+#box1{
+background-color: black;
+    height: 230px;
+    width: 270px;
+    color: white;
+	border-radius: 10px;
+    position: relative;
+    padding-left: 5px;
+	padding:10px;
+}
+#one{
+padding:10px;
+font-size:20px;
+}
+#btxt{
+justify-content:center;
+font-size:40px;
+height:auto;
+width:200px;
+padding:10px;
+padding-right:10px;
+text-align: center;
+padding-left: 26px;
+}
+p{
+width: 250px;
+font-size: 18px;
+margin-left: 20px;
+}
+
+nav{
+    background-image: linear-gradient(180deg,rgba(68, 66, 66, 0.438),rgba(65, 62, 62, 0.815)),url(./Pick1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto,cover;
+    min-height: 500px;    
+}
+.Nbtn{
+    
+    padding: 10px;
+    border-radius: 8px;
+}
+.nav{
+    width: 35%;
+    height: auto;
+    float: left;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 2%;
+    color: whitesmoke;
+}
+.text{
+padding:5%;
+text-align: justify;
+margin-right:1%;
+}
+#firstDivision{
+    margin-left: 5%;
+}
+#secondDivision{
+    background-image: linear-gradient(180deg,rgba(19, 18, 18, 0.438),#222),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnMVTv0j0SVGZtdxSAh2aulvySNcgLHoqwg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: auto,cover;
+    background-size: 100% 100%;
+    min-height: 400px;    
+}
+.secondDivision{
+    width: 35%;
+    float: right;
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 5%;
+    color: whitesmoke;
+}
+.Sbtn{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 8px;
+}
+#thirdDivision{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+#fourthDivision{
+    display:flex;
+    margin-top: 3%;
+    justify-content:space-around;
+     padding:20px;
+     border: 1px solid lightgray;
+    /*margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 5%;
+    width: auto;*/
+}
+
+.image{
+    justify-content: space-around;
+    border: 0.5px solid lightgray;
+    padding-left: 40px;
+    padding-bottom: 70px;
+    height: 250px;
+    width: 250px;
+    float: left;
+   
+    margin-bottom: 10%;
+    
+}
+.img{
+    height: 282px;
+    width: 145px;
+    padding:10px;
+    margin-left: 10px;
+}
+figcaption{
+    width: 250px;
+font-size: 15px;
+padding-top: 15px;;
+}
+.bottom{
+   
+}
+#bottom{
+    bottom: 0;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    width: 85vh;
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    border-radius: 5px;
+    text-align: justify;
+}
+#z{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.bottompic{
+    position: absolute;
+    left: 17vh;
+    top: 345vh;
+    right: auto;
+    bottom: 0;
+    width: 25%;
+    height: 0;
+    min-height: 440px;
+    border-radius: 10px;
+    background-position: 69% 80%;
+    background-size: 270%;
+    background-image: url(https://www.purdueglobal.edu/blog/it/kaplwomencomputerscience1.jpg);
+    
+    
+}
+n{
+    font-size: 16px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 15vh;   
+    width: 100%;
+    bottom: 0;
+
+
+}
