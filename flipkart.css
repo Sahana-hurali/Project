@@ -1,0 +1,136 @@
+body{
+    margin: 0 !important;
+}
+*{
+    font-family: emoji;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    padding: 2px;
+}
+#header{
+    float: left;
+    padding: 10px;
+    margin-left: 200px;
+}
+span{
+    margin: 30px;
+}
+
+#nav:hover{
+    text-decoration: underline;
+}
+#nav{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+*/
+
+#txt{
+    align-items: center;
+    width: 400px;
+    height: 20px;
+    margin-left: 30%;
+}
+a{
+    text-decoration: none;
+    color: black; 
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    width: 80%;
+    float: right;
+}
+h{
+    font-size: xx-large;
+    
+}
+footer{
+    width: auto;
+    height:auto;
+    margin-top: 900px;
+    color:white;
+    padding: 20px;
+}
+#back{
+    height: 100px;
+    color: white;
+   
+
+}
+figure{
+    float: left;
+}
+g{
+    color: rgba(10, 175, 10, 0.89);
+}
+#col{
+    float: left;
+    height: auto;
+    width: 25%;
+    margin-left: -40px;
+    color: darkgrey;
+}
+
+/* ------- */
+.boxes{
+    display:flex;
+    margin-top: 3%;
+    justify-content:space-around;
+    padding:20px;
+    }
+.box{
+    margin:20px;
+    width:350px;
+    height:400px;
+    }
+#nav{
+    display:flex;
+    
+    justify-content:space-around;
+    padding:10px;
+    background-color: white;
+}
+.img{
+    height: 64px;
+    width: 64px;
+}
+figcaption{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+.Bimage{
+    position: absolute;
+    height: 280px;
+    width: 100%;
+    margin: 10px;
+    margin-left: 10px;
+}
+.box{
+    height: 150px;
+    width: 107px;
+}
+#figcaption{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+s1{
+    font-size: 14px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    display: block;
+}
+s2{
+    color: seagreen;
+    white-space: nowrap;
+}
